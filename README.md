@@ -12,6 +12,7 @@ npm install local-iso-timestamp
 ```
 const { getLocalIsoTimestamp } = require('local-iso-timestamp');
 console.log(getLocalIsoTimestamp());
+// Output: 2024-10-12T22:15:16.521+13:00
 ```
 
 ## Source
