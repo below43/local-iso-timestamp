@@ -21,6 +21,7 @@ import { getLocalIsoTimestamp } from 'local-iso-timestamp';
 console.log(getLocalIsoTimestamp());
 // Output: 2024-10-12T22:15:16.521+13:00
 ```
+
 ## Source
 [GitHub](https://github.com/below43/local-iso-timestamp)
 
