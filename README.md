@@ -1,6 +1,6 @@
 # local-iso-timestamp
 
-A simple utility to get the current local date and time in ISO format with timezone offset.
+A simple utility to get the current local date and time in ISO 8601 format with timezone offset.
 
 ## Installation
 
@@ -13,21 +13,21 @@ npm install local-iso-timestamp
 ```javascript
 const { getLocalIsoTimestamp } = require('local-iso-timestamp');
 console.log(getLocalIsoTimestamp());
-// Output: 2024-10-12T22:15:16.521+13:00
+// Output: 2024-10-12T22:15:16.521+13:00 (ISO 8601 format, depending on your local timezone)
 
 const date = new Date('2023-10-12T22:15:16.521Z');
 console.log(getLocalIsoTimestamp(date));
-// Output: 2023-10-12T22:15:16.521+13:00 (depending on your local timezone)
+// Output: 2023-10-12T22:15:16.521+13:00 (ISO 8601 format, depending on your local timezone)
 ```
 ### TypeScript
 ```typescript
 import { getLocalIsoTimestamp } from 'local-iso-timestamp';
 console.log(getLocalIsoTimestamp());
-// Output: 2024-10-12T22:15:16.521+13:00
+// Output: 2024-10-12T22:15:16.521+13:00 (ISO 8601 format, depending on your local timezone)
 
 const date = new Date('2023-10-12T22:15:16.521Z');
 console.log(getLocalIsoTimestamp(date));
-// Output: 2023-10-12T22:15:16.521+13:00 (depending on your local timezone)
+// Output: 2023-10-12T22:15:16.521+13:00 (ISO 8601 format, depending on your local timezone)
 ```
 
 ## Source
