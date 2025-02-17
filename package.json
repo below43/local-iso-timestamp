@@ -1,6 +1,6 @@
 {
 	"name": "local-iso-timestamp",
-	"version": "1.0.4",
+	"version": "1.0.3",
 	"description": "A simple utility to get the current local date and time in ISO format with timezone offset.",
 	"main": "index.js",
 	"scripts": {
