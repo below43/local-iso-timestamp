@@ -1,7 +1,6 @@
 // index.js
-function getLocalIsoTimestamp()
+function getLocalIsoTimestamp(date = new Date())
 {
-	const date = new Date();
 	const offset = date.getTimezoneOffset();
 	const sign = offset > 0 ? '-' : '+';
 	const absOffset = Math.abs(offset);
